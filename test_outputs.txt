@@ -1,0 +1,19 @@
+XGBRegressor Performance with various params
+
+tree_method="gpu_hist": 40.86311435699463
+
+tree_method="hist": 110.42640781402588
+
+tree_method="gpu_hist", colsample_bytree=0.1: 40.36408090591431
+
+tree_method="hist", colsample_bytree=0.1: 109.10484647750854
+
+tree_method="gpu_hist", max_bin=6: 38.22568154335022
+
+tree_method="hist", max_bin=6: 108.4053897857666
+
+tree_method="hist", n_jobs=1: 231.9430055618286
+
+tree_method="hist", n_jobs=5: 114.74842643737793
+
+tree_method="hist", n_jobs=-1: 110.15278816223145
